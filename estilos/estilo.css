@@ -6,20 +6,26 @@
     left: 0px;
     position: fixed;
 }
+
 .tituloMenu{
     color: white;
     top: 14px;
     position: fixed;
-    left: 70px;
+    left: 33%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 25px;
     width: 100%;
 }
 
-.logoF1{
-    width: 50px;
-    right: 200px;
-}
 .logoFIA{
     width: 70px;
+}
+
+.divlogof1{
+    position: fixed;
+    right: 10px;
+    top: 5px;
+}
+.logoF1{
+    width: 80px;
 }
