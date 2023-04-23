@@ -1,46 +1,176 @@
-body{
+html{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #b7d5e5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.divMenu{
-    background-color: #1398BE;
+body{
+    background-color: rgb(189, 228, 228);
+    width: 100vw;
+}
+
+.Menu{
+    position: fixed;
+    background-color: rgb(33, 145, 153);
     width: 100%;
     height: 50px;
     top: 0px;
     left: 0px;
-    position: fixed;
 }
 
-.tituloMenu{
-    color: white;
-    top: 14px;
+.itemMenu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bold;
     position: fixed;
-    left: 33%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    top: 10px;
+    left: 30%;
+    font-size: x-large;
     width: 100%;
 }
 
-.logoFIA{
-    width: 70px;
-}
-
-table {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-60%, -50%);
-  }
 
 .bandeira{
-    width: 40px;
+    width: 30px; 
 }
-.divlogof1{
+
+.logofia{
     position: fixed;
-    right: 10px;
-    top: 5px;
+    width: 60px;
+    height: 45px;
+    top: 2px;
+    left: 15px;
 }
-.logoF1{
-    width: 80px;
+.logof1{
+    position: fixed;
+    width: 55px;
+    height: 45px;
+    top: 3px;
+    left: 1285px;
+}
+
+.textClass_Pilotos{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.tabela-pontos{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.linha-branca{
+    background-color: rgb(253, 237, 235);
+}
+.linha-bege{
+    background-color: rgb(248, 187, 181);
+}
+
+.posicaoT1{
+    text-align: center;
+    font-weight: bold;
+}
+.pilotosT1{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pontosT1{ 
+    text-align: center;
+    font-weight: bold;
+}
+.flag_pilot {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.divTabelaEtapas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1000px;
+    margin: 0 auto;
+}
+.textPont_Etapas{
+    text-align: center;
+}
+.TabG1 , .TabG2 , .TabG3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 290px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+td{
+    padding: 4;
+}
+.posicaoTGP {
+    font-weight: bold;
+}
+.pilotTGP {
+    text-align: left;
+    font-weight: 1;
+}
+.linha1TGP {
+    background-color: rgb(62, 120, 149);
+}
+.linha2TGP {
+    background-color: rgb(139, 177, 197);
+}
+
+.tabPilotoEquipes{
+    text-align: center;
+}
+
+.logos {
+    width: 50px; 
+}
+
+.pt_equipes {
+    text-align: center;
+}
+
+.tabEquipesPontos {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 365px;
+}
+
+.tbPE_linhas1 {
+    background-color: rgb(240, 246, 117);
+}
+.tbPE_linhas2 {
+    background-color: rgb(138, 141, 74);
+}
+
+.pilot_equipe {
+    text-align: center;
+}
+
+.tabEquipes {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 365px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tb_plLinha1 {
+    background-color: rgb(250, 76, 90);
+}
+.tb_plLinha2 {
+    background-color: rgb(255, 131, 141);
+}
+.bandeira2{
+    width: 50px;
 }
